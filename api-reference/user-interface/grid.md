@@ -9,7 +9,7 @@ Because its API tries to stick as closely to [List](list.md#list)'s as possible,
 - updating your imports from `import { List } from '@raycast/api'` to `import { Grid } from '@raycast/api'`;
 - removing the `isShowingDetail` prop from the top-level `List` component, along with all [List.Item](list.md#list.item)s' `detail` prop
 - renaming all [List.Item](list.md#list.item)s' h`icon` prop to `content`
-- removing all [List.Item](list.md#list.item)s' `accessories`, `accessoryIcon` and `accessoryTitle props; [Grid.Item](#grid.item) does not _currently_ support accessories
+- removing all [List.Item](list.md#list.item)s' `accessories`, `accessoryIcon` and `accessoryTitle` props; [Grid.Item](#grid.item) does not _currently_ support accessories
 - finally, replacing all usages of `List` with `Grid`.
   {% endhint %}
 
